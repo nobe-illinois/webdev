@@ -3,32 +3,43 @@
 <html>
 
 <head>
-	<title>
-		Alumni Registration Form
-	</title>
+	<!--displays title on tab; want to get picture on tab also-->
+	<title>Registration Form</title>
+	
+	<!--links CSS style sheet to HTML document-->
+	<link rel="stylesheet" href="alumni_registration.css">
 </head>
 
 <body>
-
+	<h1>Registration Form</h1><br>
+	
+	<!--Registration form fields, need to get php name from Mayank
+	  --Madeleine is going to work on a Javascript check to make sure
+			the fields are valid when a user submits them-->
 	<form action="SOMETIHING.php">
-		<p>First Name:</p>
+		<h3><p>First Name:</p></h3>
 			<input type="text" name="firstname" size="25" maxlength="30"/>
-		<p>Last Name:</p>
+		<h3><p>Last Name:</p></h3>
 			<input type="text" name="lastname" size="25" maxlength="30"/>
-		<p>Personal Email:</p>
+		<h3><p>Personal Email:</p></h3>
 			<input type="text" name="personal_email" size="25" maxlength="40"/>
-		<p>Work Email:</p>
+		<h3><p>Work Email:</p></h3>
 			<input type="text" name="work_email" size="25" maxlength="40"/>
-		<p>Cellphone Number:</p>
+		<h3><p>Cellphone Number:</p></h3>
 			<input type="text" name="cell_number" size="25" maxlength="10"/>
-		<p>Work Number:</p>
+		<h3><p>Work Number:</p></h3>
 			<input type="text" name="work_number" size="25" maxlength="10"/>
-		<p>Company:</p>
+		<h3><p>Company:</p></h3>
 			<input type="text" name="company" size="25" maxlength="40"/>
-		<p>Graduation Year:</p>
+		<h3><p>Graduation Year:</p></h3>
 			<input type="text" name="grad_year" size="25" maxlength="4"/>	
+		
+		<!--I think the submit button works but will have to talk to 
+		  -- Mayank to make sure it's set up correctly-->
+		<br><br>
+			<input type="submit" value="Register">		
 	</form>
-
+	
 </body>
 
 </html>

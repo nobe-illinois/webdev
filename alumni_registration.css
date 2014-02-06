@@ -1,0 +1,22 @@
+/*CSS style from current NOBE Response theme */
+body {
+	background-color: #eee;
+	font-family: exo, sans-serif;
+	font-size: 82%;
+	text-align: center;
+}
+
+h1 {
+	color: #59554d;
+	font-size: 210%;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+
+h2 {
+	color: #000;
+	font-size: 24px;
+	font-weight: 500;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
