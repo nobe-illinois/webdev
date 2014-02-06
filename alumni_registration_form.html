@@ -16,7 +16,7 @@
 	<!--Registration form fields, need to get php name from Mayank
 	  --Madeleine is going to work on a Javascript check to make sure
 			the fields are valid when a user submits them-->
-	<form action="SOMETIHING.php">
+	<form name="registration_form" action="SOMETIHING.php">
 		<h3><p>First Name:</p></h3>
 			<input type="text" name="firstname" size="25" maxlength="30"/>
 		<h3><p>Last Name:</p></h3>
@@ -37,7 +37,8 @@
 		<!--I think the submit button works but will have to talk to 
 		  -- Mayank to make sure it's set up correctly-->
 		<br><br>
-			<input type="submit" value="Register">		
+			<input type="submit" value="Register">
+		<p id="error_message"></p>		
 	</form>
 	
 </body>
